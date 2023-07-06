@@ -11,12 +11,15 @@ https://templatemo.com/tm-566-medic-care
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #247cff;
-  --section-bg-color:             #F9F9F9;
-  --dark-color:                   #000000;
+  --primary-color:                #398449;
+  --section-bg-color:             #f9f9f9;
+  --dark-color:                   #FFC129;
   --title-color:                  #565758;
   --p-color:                      #717275;
-  --border-color:                 #eaeaea;
+  --border-color:                 #EB5C9C;
+  --back-color:                   #eaeaea;
+  /*e5236d
+  --border-color:                 #eaeaea;*/
 
   --body-font-family:             'Open Sans', sans-serif;
 
@@ -28,6 +31,7 @@ https://templatemo.com/tm-566-medic-care
   --h6-font-size:                 22px;
   --p-font-size:                  18px;
   --menu-font-size:               16px;
+  --r-font-size:                  14px;
 
   --font-weight-light:            300;
   --font-weight-normal:           400;
@@ -51,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: var(--title-color);
   line-height: inherit;
 }
 
@@ -101,6 +105,13 @@ p {
   letter-spacing: 0.5px;
 }
 
+r {
+  color: var(--p-color);
+  font-size: var(--r-font-size);
+  font-weight: var(--font-weight-light);
+  letter-spacing: 0.5px;
+}
+
 a, 
 button {
   touch-action: manipulation;
@@ -127,8 +138,8 @@ a:hover {
 .custom-link {
   display: inline-block;
   text-decoration: none;
-  border: 1px solid var(--border-color);
-  color: var(--primary-color);
+  border: 1px solid var(--back-color);
+  color: var(--border-color);
   pointer-events: auto;
   font-weight: var(--font-weight-semibold);
   line-height: 40px;
@@ -147,8 +158,8 @@ a:hover {
 
 .custom-link::before {
   content: attr(data-hover);
-  background-color: var(--border-color);
-  color: var(--primary-color);
+  background-color: var(--back-color);
+  color: var(--border-color);
   position: absolute;
   top: 100%;
   bottom: 0;
@@ -201,7 +212,7 @@ strong {
 }
 
 .animated-item {
-  color: var(--primary-color);
+  color: var(--border-color);
 }
 
 .animated-item {
@@ -298,7 +309,7 @@ strong {
 }
 
 .featured-number {
-  color: var(--primary-color);
+  color: var(--border-color);
   font-size: 8rem;
   margin: 0 10px;
 }
@@ -639,7 +650,7 @@ strong {
 }
 
 .reviews-carousel .owl-item.active.center .reviews-thumb {
-  background: var(--dark-color);
+  background: var(--title-color);
 }
 
 .reviews-carousel .owl-item.active.center .reviews-thumb,
@@ -913,4 +924,18 @@ strong {
   .timeline::before {
     left: 42px;
   }
+}
+
+.WhatsApp {
+  position: fixed; 
+  bottom: 70px; 
+  right: 50px; 
+  z-index: 9999
+}
+
+.bandeira {
+  position: fixed; 
+  top: 20px; 
+  right: 70px; 
+  z-index: 9999
 }

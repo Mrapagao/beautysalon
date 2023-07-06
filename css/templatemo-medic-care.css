@@ -926,6 +926,17 @@ strong {
   }
 }
 
+/*---------------------------------------
+  Extras              
+-----------------------------------------*/
+
+.Service-box {
+  padding-top:   5px;  
+  padding-left:  20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
 .WhatsApp {
   position: fixed; 
   bottom: 70px; 
